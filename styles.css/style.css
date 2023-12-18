@@ -30,6 +30,7 @@
   background-color: #c0370d;
   width: 151px;
   height: 46px;
+  cursor: pointer;
   margin-left: 0.5rem;
   margin-right: 0.5rem;
   border-radius: 10px;
@@ -62,6 +63,7 @@
 }
 
 a {
+  cursor: pointer;
   text-decoration: none;
   color: rgb(255, 255, 255);
 }
@@ -81,6 +83,7 @@ a {
 
 .hero__content {
   position: relative;
+
   bottom: 150px;
   margin-left: 3rem;
   margin-top: 8rem;
@@ -111,12 +114,13 @@ a {
   width: 200px;
   display: inline-block;
   border: 0;
-  cursor: pointer;
+
   border-radius: 20px;
   text-align: center;
   font-family: "Poppins", sans-serif;
   box-shadow: 0 0 2px 0.5px rgb(198, 193, 193);
 }
+
 .imgs {
   position: absolute;
 }
