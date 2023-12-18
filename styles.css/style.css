@@ -69,17 +69,12 @@ a {
   color: rgb(255, 255, 255);
 }
 /* hero */
-section {
-  cursor: pointer;
-}
-span {
-  color: #ff0029;
-}
 
 .block--dark {
   background-color: rgb(0, 0, 0);
 }
 .container {
+  height: 100vh;
   display: grid;
 }
 .grid--cols-2 {
@@ -109,6 +104,14 @@ span {
   text-shadow: 2px 2px 2px rgb(165, 153, 153);
 }
 
+.positive:hover {
+  color: rgb(5, 134, 68);
+  text-shadow: 2px 2px 2px rgb(165, 153, 153);
+}
+section {
+  cursor: pointer;
+}
+
 .block__tagline {
   font-family: Poppins;
   font-size: 20px;
@@ -132,28 +135,38 @@ span {
   box-shadow: 0 0 2px 0.5px rgb(198, 193, 193);
 }
 
-.imgs {
-  position: absolute;
+.btn__hero:hover {
+  background-color: red;
+  padding: 0.5rem 2rem;
+  width: 200px;
+  display: inline-block;
+  border: 0;
+
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 0 9px 2px white;
 }
+
 .hero__mobile {
   width: 300px;
   height: 550px;
-  position: absolute;
-  top: 190px;
-  left: 900px;
-  right: 150px;
+  position: relative;
+  top: -846px;
+  right: -255px;
 }
 .hero__lights {
   width: 550px;
   position: relative;
-  top: 120px;
-  left: 680px;
+  right: -86px;
 }
 .hero__bull {
   width: 500px;
   height: 400px;
-  position: absolute;
-  bottom: -210px;
-
-  left: 500px;
+  position: relative;
+  right: 150px;
+  top: -250px;
+}
+span {
+  color: #ff0029;
 }
