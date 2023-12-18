@@ -69,6 +69,12 @@ a {
   color: rgb(255, 255, 255);
 }
 /* hero */
+section {
+  cursor: pointer;
+}
+span {
+  color: #ff0029;
+}
 
 .block--dark {
   background-color: rgb(0, 0, 0);
@@ -101,9 +107,6 @@ a {
   display: inline-block;
   color: #0b9a66;
   text-shadow: 2px 2px 2px rgb(165, 153, 153);
-}
-section {
-  cursor: pointer;
 }
 
 .block__tagline {
@@ -153,7 +156,4 @@ section {
   bottom: -210px;
 
   left: 500px;
-}
-span {
-  color: #ff0029;
 }
