@@ -1,0 +1,147 @@
+/* navbar */
+.nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.logo {
+  margin-left: 2rem;
+  margin-top: 0.2rem;
+}
+.nav__list {
+  width: auto;
+  display: flex;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+}
+.nav__items {
+  color: white;
+  list-style: none;
+  padding: 0.5rem 1rem;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0em;
+}
+
+.nav__btn {
+  background-color: #c0370d;
+  width: 151px;
+  height: 46px;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 18px;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  transition: font-size 0.5s;
+}
+.nav__btn:hover {
+  background-color: #c0370d;
+  width: 151px;
+  height: 46px;
+  margin-left: 0.5rem;
+  border-radius: 10px;
+  border-style: none;
+  font-size: 17px;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: center;
+  box-shadow: 0 0 9px 2px white;
+}
+.home > a {
+  color: #ff0029;
+  transition: color 0.2s;
+}
+.home > a:hover {
+  color: #f3dde1;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+/* hero */
+.block {
+  overflow: hidden;
+}
+.block--dark {
+  background-color: black;
+}
+.container {
+  display: grid;
+}
+.grid--cols-2 {
+  grid-template-columns: 1fr 1fr;
+}
+
+.hero__content {
+  position: relative;
+  bottom: 150px;
+  margin-left: 3rem;
+  margin-top: 8rem;
+  color: rgb(252, 246, 246);
+}
+.block__heading {
+  font-family: Poppins;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 69px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 1.5rem;
+}
+.block__tagline {
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 39px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 1.8rem;
+}
+
+.btn__hero {
+  background-color: #c0370d;
+  padding: 0.5rem 2rem;
+  width: 200px;
+  display: inline-block;
+  border: 0;
+  cursor: pointer;
+  border-radius: 20px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  box-shadow: 0 0 2px 0.5px rgb(198, 193, 193);
+}
+.imgs {
+  position: absolute;
+}
+.hero__mobile {
+  width: 300px;
+  height: 550px;
+  position: absolute;
+  top: 190px;
+  left: 900px;
+  right: 150px;
+}
+.hero__lights {
+  width: 550px;
+  position: relative;
+  top: 120px;
+  left: 680px;
+}
+.hero__bull {
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  bottom: -210px;
+
+  left: 500px;
+}
+span {
+  color: #ff0029;
+}
