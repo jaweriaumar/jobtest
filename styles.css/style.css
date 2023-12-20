@@ -16,6 +16,14 @@
   font-weight: 20;
   font-style: normal;
 }
+/* color palette */
+:root {
+  --btn-color: #00b473;
+  --btn-hover: rgb(196, 16, 16);
+  --color-accent: #ff0029;
+  --heading-domain: #3f3e3e;
+  --domain-text: #808080;
+}
 /* navbar */
 .nav {
   background-color: rgb(0, 0, 0);
@@ -45,7 +53,7 @@
 }
 
 .nav__btn {
-  background-color: #22bd84;
+  background-color: var(--btn-color);
   color: white;
   width: 151px;
   height: 46px;
@@ -61,7 +69,7 @@
   transition: font-size 0.5s;
 }
 .nav__btn:hover {
-  background-color: rgb(196, 16, 16);
+  background-color: var(--btn-hover);
   width: 151px;
   height: 46px;
   margin-left: 0.5rem;
@@ -73,12 +81,9 @@
   text-align: center;
   box-shadow: 0 0 9px 2px rgb(161, 157, 157);
 }
-.home > a {
-  color: #ff0029;
+a.home {
+  color: var(--color-accent);
   transition: color 0.2s;
-}
-.home > a:hover {
-  color: #f3dde1;
 }
 
 a {
@@ -125,7 +130,7 @@ section {
 }
 .positive {
   display: inline-block;
-  color: #0b9a66;
+  color: var(--btn-color);
   text-shadow: 2px 2px 2px rgb(165, 153, 153);
 }
 
@@ -145,7 +150,7 @@ section {
 }
 
 .btn__hero {
-  background-color: #00b473;
+  background-color: var(--btn-color);
   padding: 0.5rem 2rem;
   width: 200px;
   display: inline-block;
@@ -158,7 +163,7 @@ section {
 }
 
 .btn__hero:hover {
-  background-color: rgb(196, 16, 16);
+  background-color: var(--btn-hover);
   padding: 0.5rem 2rem;
   width: 200px;
   display: inline-block;
@@ -191,7 +196,7 @@ section {
   top: 335px;
 }
 span {
-  color: #ff0029;
+  color: var(--color-accent);
 }
 /* domain block */
 .main {
@@ -249,7 +254,7 @@ span {
   align-items: center;
 }
 p {
-  color: #807d7d;
+  color: var(--domain-text);
 }
 h3:hover {
   color: rgb(16, 71, 81);
